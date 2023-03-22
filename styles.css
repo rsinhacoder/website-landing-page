@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.btn-warning:hover {
+  background: rgb(0, 255, 164);
+  background: linear-gradient(90deg, rgb(0, 51, 190) 0%, rgb(0, 180, 57) 100%);
+  color: white;
+  border: 1px solid green;
+}
+a:hover {
+  color: red;
+}
+img {
+  max-width: 90%;
+}
+
+/* NAV section */
+.navbar {
+  background-image:none;
+  height: 5rem;
+}
+
+.navbar > a {
+  font-size: 28px;
+}
+
+.navbar li {
+  font-size: 14px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+/* .navbar-item {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+} */
+
+/* .navbar-item::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: #2a37f5;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navbar-item:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+} */
+
+@media (max-width: 1200px) {
+  .navbar > a {
+    font-size: 48px;
+  }
+
+  .navbar li {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .navbar ul {
+    padding-left: 0.7rem;
+  }
+  .navbar-brand {
+    font-size: 40px;
+  }
+}
