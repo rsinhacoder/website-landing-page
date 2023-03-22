@@ -4,6 +4,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+
 }
 
 .btn-warning:hover {
@@ -67,14 +68,210 @@ img {
   }
 
   .navbar li {
+    
     font-size: 18px;
     font-weight: 300;
   }
+ 
 
   .navbar ul {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
     padding-left: 0.7rem;
   }
   .navbar-brand {
+    font-size: 40px;
+  }
+  .navbar form {
+    visibility: hidden;
+  };
+}
+
+/* hero */
+
+.hero {
+  max-width: 90%;
+  /* margin-top: 40rem; */
+  background-image: url("../images/HERO\ BG.svg");
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media (min-width: 768px) {
+  .hero-heading {
+    font-size: 50px;
+    font: "Inter", sans-serif;
+    font-weight: 700;
+
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+  }
+}
+.hero-expert {
+  width: 25%;
+}
+.hero-description {
+  font-weight: 200;
+}
+.her .hero-women {
+  max-width: 100%;
+}
+
+.get-started-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.green-youtube-button {
+  border: none;
+  background: transparent;
+}
+.hero-women {
+  background-image: url("../images/hero/hero-women-background.png");
+  background-position: 40%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.our-creative-team {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hero .hero-women {
+    max-width: 40%;
+  }
+}
+
+@media (min-width: 992px) {
+  .our-creative-team {
+    display: block;
+    position: relative;
+  }
+
+  .our-expert-team-text {
+    position: absolute;
+    top: -90px;
+    left: 610px;
+  }
+
+  .our-creative-team-images1 {
+    position: absolute;
+    top: -62px;
+    left: 598px;
+  }
+  .our-creative-team-images2 {
+    position: absolute;
+    top: -62px;
+    left: 628px;
+  }
+  .our-creative-team-images3 {
+    position: absolute;
+    top: -62px;
+    left: 658px;
+  }
+  .our-creative-team-images4 {
+    position: absolute;
+    top: -62px;
+    left: 688px;
+  }
+  .our-creative-team-images5 {
+    position: absolute;
+    top: -62px;
+    left: 718px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero .btn-warning {
+    padding: 15px 30px;
+  }
+}
+
+
+/* SERVICE CARDS section */
+
+.social-media-management h2 {
+  padding-top: 1rem;
+  font-weight: 200;
+  line-height: 3rem;
+}
+.social-media-management .service-cards-descriptions {
+  font-weight: 200;
+}
+.social-media-management button {
+  border: none;
+  background: transparent;
+}
+.social-media-management {
+  box-shadow: 0px 17px 33px -14px rgba(2, 22, 5, 0.09);
+  border-radius: 5px;
+  padding: 2rem;
+}
+.service-cards-container img {
+  width: 40%;
+}
+
+@media (min-width: 768px) {
+  .service-cards-container {
+    margin-top: 170px;
+    margin-bottom: 170px;
+  }
+}
+
+/* Optimizing youe Website*/
+
+.procedure-container {
+  background-image: url("../images/Ellipse 28.svg");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: right;
+  background-size: contain;
+}
+.procedure-container h1 {
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+.optimizing-your-website .row p {
+  margin-top: 2rem;
+  font-weight: 200;
+}
+.procedure-container {
+  border-radius: 5px;
+}
+.procedure-1 {
+  background-image: url("../images/1.svg");
+  background-repeat: no-repeat;
+  background-position: 60%;
+}
+.procedure-2 {
+  background-image: url("../images/2.svg");
+  background-repeat: no-repeat;
+  background-position: 60%;
+}
+.procedure-3 {
+  background-image: url("../images/3.svg");
+  background-repeat: no-repeat;
+  background-position: 60%;
+}
+.procedure-4 {
+  background-image: url("../images/4.svg");
+  background-repeat: no-repeat;
+  background-position: 60%;
+}
+.procedure-container .procedure:hover {
+  background-color: white;
+
+  box-shadow: 0px 10px 14px 2px rgba(14, 17, 60, 0.09);
+  transition: 400ms;
+}
+
+@media (min-width: 768px) {
+  .optimizing-your-website h2 {
     font-size: 40px;
   }
 }
